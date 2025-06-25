@@ -8,7 +8,7 @@ const Header = () => {
     <div className="w-11/12 max-w-4xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 px-4">
       
       {/* Profile Image */}
-      <div initial={{scale: 0}} whileInView={{scale: 1}} transition={{duration: 0.8, type:'spring', stifness: 100}}>
+      <div>
         <Image src={profile1} alt="Piyush Harchandani" className="rounded-full w-32 mt-100 sm:w-[150px] sm:h-[150px]" />
       </div>
 
@@ -40,7 +40,7 @@ const Header = () => {
           Contact Me
           <Image src={assets.right_arrow_white} alt="arrow" className="w-4" />
         </a>
-        <a href="/sample-resume.pdf" download className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-100 transition">
+        <a href="/Piyush_Harchandani _Resume.pdf" download className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-100 transition">
           My Resume
           <Image src={assets.download_icon} alt="download icon" className="w-4" />
         </a>
